@@ -1,0 +1,32 @@
+[
+  {
+    "id": "rev-1",
+    "name": "Julian Vance",
+    "role": "Specialty Coffee Judge & Sommelier",
+    "rating": 5,
+    "date": "2 days ago",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=160&q=80",
+    "comment": "The Panama Geisha Chemex Reserve at BRWW is unequivocally one of the finest extractions on the East Coast. Unbelievable floral clarity and jasmine finish.",
+    "drink": "Panama Geisha Chemex"
+  },
+  {
+    "id": "rev-2",
+    "name": "Elena Rostova",
+    "role": "Architectural Designer",
+    "rating": 5,
+    "date": "1 week ago",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=160&q=80",
+    "comment": "An extraordinary sanctuary. The muted vintage teal decor, warm charcoal textures, and gentle aroma of drum-roasted beans make it my daily writing refuge.",
+    "drink": "24-Hour Nitro Velvet Brew"
+  },
+  {
+    "id": "rev-3",
+    "name": "Aarav Mehta",
+    "role": "Gastronomy Writer",
+    "rating": 5,
+    "date": "2 weeks ago",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=160&q=80",
+    "comment": "The pairing of the Velvet Tiramisu Tart with the Smoked Bourbon Espresso is gastronomic perfection. The oat milk texture on the flat white is unmatched.",
+    "drink": "Velvet Flat White"
+  }
+]

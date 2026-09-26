@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green:       #2D5A47;
+  --color-brand-green-hover: #3d7a5f;
+  --color-brand-green-dark:  #1e3d30;
+  --color-brand-white:       #F7F4EE;
+  --color-brand-card:        rgba(22, 29, 27, 0.65);
+  --color-brand-surface:     #121615;
+  --color-body-text:         #F7F4EE;
+  --color-secondary-text:    #8A9B94;
+  --color-coffee-accent:     #C88A58;
+  --color-teal:              #58A79B;
+}
+
+:root {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-display: 'Cinzel', serif;
+  --font-sans: 'Inter', -apple-system, sans-serif;
+  --font-manrope: 'Manrope', sans-serif;
+  --green-primary: #2D5A47;
+  --green-primary-glow: rgba(45, 90, 71, 0.2);
+  --bg-primary: #121615;
+  --bg-alternate: #111413;
+  --body-text: #F7F4EE;
+  --teal-secondary: #58A79B;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #121615;
+  color: #F7F4EE;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: rgba(88, 167, 155, 0.3);
+  color: #F7F4EE;
+}
+
+/* Scrollbar — Dark Theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #111413;
+}
+::-webkit-scrollbar-thumb {
+  background: #2D5A47;
+  border-radius: 4px;
+  border: 1px solid rgba(88, 167, 155, 0.15);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #58A79B;
+}
+
+/* Typography Utility Classes */
+.font-serif-luxury {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-manrope {
+  font-family: 'Manrope', sans-serif;
+}
+
+/* Subtle Paper Noise Overlay */
+.vintage-noise {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+  background-size: 300px 300px;
+}
+
+/* Frosted Glass Cards — Dark Vintage Theme */
+.vintage-glass-card {
+  background: rgba(22, 29, 27, 0.65);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(88, 167, 155, 0.12);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25), 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.vintage-glass-card:hover {
+  border-color: rgba(88, 167, 155, 0.25);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35), 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Primary Button — Muted Teal */
+.btn-primary-teal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: 999px;
+  background-color: #58A79B;
+  color: #121615;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  box-shadow: 0 4px 18px rgba(88, 167, 155, 0.25);
+  transition: all 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary-teal:hover {
+  background-color: #6ec4b7;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 26px rgba(88, 167, 155, 0.35);
+}
+
+.btn-secondary-vintage {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: 999px;
+  background-color: rgba(88, 167, 155, 0.08);
+  border: 1px solid rgba(88, 167, 155, 0.25);
+  color: #58A79B;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  transition: all 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+  cursor: pointer;
+}
+
+.btn-secondary-vintage:hover {
+  background-color: rgba(88, 167, 155, 0.15);
+  border-color: #58A79B;
+  color: #F7F4EE;
+  transform: translateY(-2px);
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "reservationId": "RES-6481",
+    "timestamp": "2026-09-14T09:28:29.055Z",
+    "name": "Lord Sterling",
+    "email": "",
+    "phone": "",
+    "date": "2026-09-25",
+    "time": "19:00",
+    "guests": 2,
+    "seatingArea": "Secret Garden Terrace",
+    "specialRequests": "",
+    "status": "Confirmed"
+  },
+  {
+    "reservationId": "RES-8487",
+    "timestamp": "2026-09-14T09:26:16.562Z",
+    "name": "Lord Alistair",
+    "email": "alistair@domain.com",
+    "phone": "+15551234",
+    "date": "2026-09-22",
+    "time": "18:30",
+    "guests": 4,
+    "seatingArea": "Private Cupping Room",
+    "specialRequests": "",
+    "status": "Confirmed"
+  }
+]

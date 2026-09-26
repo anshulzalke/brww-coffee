@@ -1,0 +1,48 @@
+[
+  {
+    "orderId": "VB-885240",
+    "timestamp": "2026-09-14T09:28:29.053Z",
+    "status": "Confirmed",
+    "estimatedPrepTime": "12-15 mins",
+    "customer": {
+      "name": "Audrey Rose",
+      "email": "rose@velvet.co"
+    },
+    "items": [
+      {
+        "id": "yirgacheffe-v60",
+        "name": "Ethiopian Yirgacheffe V60",
+        "unitPrice": 6.25,
+        "quantity": 1
+      }
+    ],
+    "total": 6.25,
+    "currency": "USD",
+    "orderType": "Dine-In",
+    "paymentMethod": "Card at Counter",
+    "specialInstructions": ""
+  },
+  {
+    "orderId": "VB-394945",
+    "timestamp": "2026-09-14T09:26:02.773Z",
+    "status": "Confirmed",
+    "estimatedPrepTime": "12-15 mins",
+    "customer": {
+      "name": "Lady Victoria",
+      "email": "victoria@estate.co"
+    },
+    "items": [
+      {
+        "id": "velvet-flat-white",
+        "name": "Velvet Flat White",
+        "unitPrice": 4.75,
+        "quantity": 2
+      }
+    ],
+    "total": 9.5,
+    "currency": "USD",
+    "orderType": "Dine-In",
+    "paymentMethod": "Card at Counter",
+    "specialInstructions": ""
+  }
+]
